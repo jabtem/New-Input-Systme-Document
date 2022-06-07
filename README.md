@@ -7,4 +7,4 @@ Unity New input Systme
 >## 생성
     1. Project 폴더에서 우클릭 - Create - InputActions 생성
     2. 생성된 InputAction 더블클릭 후 Input Binding
-![binding](./img/bindingEx.png)
+![binding](./img/binding.png)
