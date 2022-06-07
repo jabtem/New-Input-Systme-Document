@@ -37,4 +37,10 @@ public void OnMove(InputAction.CallbackContext context)
     Vecotor3 inputDirKey = context.ReadValue<Vector3>();
 }
 위와 같이 작성시 WASD키를 입력시마다 해당방향에 맞는 Vector3값을 input으로부터 ReadValue를 통해 읽어들인다.
+
+input.KeyBoard.Jump.started += (context) =>
+{
+    Input_Jump?.Invoke();
+};
+람다식으로 할당도 가능하다.
 ```
