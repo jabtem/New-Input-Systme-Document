@@ -44,3 +44,5 @@ input.KeyBoard.Jump.started += (context) =>
 };
 람다식으로 할당도 가능하다.
 ```
+>## InputActionType
+![binding](./img/ActionType.png)
