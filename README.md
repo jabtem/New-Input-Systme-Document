@@ -46,6 +46,7 @@ input.KeyBoard.Jump.started += (context) =>
 ```
 >## InputActionType
 ![binding](./img/ActionType.png)
+
     1.Value : 바인딩된 인풋에서 단일값을 읽는 액션, 액션이 시작될때 Started, 기본값에서 다른값으로 변경시 Perfomed , 기본값으로 돌아오면 Canceled가 호출
     2.Button : 액션의 트리거 역할, Perfomed가 호출안되며 Started와 Cancled가 호출된다.
     3.PassThrough : Perfomed만 호출되는 액션, 기본값으로 되돌아오는것과 상관없이 값이 변경될때마다 호출된다.
